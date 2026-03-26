@@ -3,4 +3,5 @@ Test;ERR;test
 Emails;OK;
 Wi-Fi;OK;
 Test;WARN;
-Machine a cafe;WARN;Toujours un stuud
+Machine a cafe;WARN;Ya toujours un stuud
+Test;WARN;bug connu
