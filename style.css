@@ -64,8 +64,20 @@ body {
     text-align: center;
 }
 
-.service-name { font-size: 2.2rem; margin-bottom: 10px; opacity: 0.9; }
-.status-label { font-size: 3.5rem; font-weight: 900; }
+/* Nom du service : devient le texte principal (Gros) */
+.service-name { 
+    font-size: 3.5rem; /* Augmenté de 2.2 à 3.5 */
+    font-weight: 900; 
+    margin-bottom: 10px; 
+    text-transform: uppercase; /* Optionnel : pour plus d'impact */
+}
+
+/* Message de statut : devient le texte secondaire (Plus petit) */
+.status-label { 
+    font-size: 2.2rem; /* Réduit de 3.5 à 2.2 */
+    font-weight: bold;
+    opacity: 0.9;
+}
 
 /* Couleurs de statut */
 .status-ok { background-color: #166534; color: #bbf7d0; }
