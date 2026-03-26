@@ -1,2 +1,6 @@
 Service;Etat;Message
-Galop;err;Service indisponible depuis ce matin
+Test;ERR;test
+Emails;OK;
+Wi-Fi;OK;
+Test;WARN;
+Machine a cafe;WARN;Toujours un stuud
