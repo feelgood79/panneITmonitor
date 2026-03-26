@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="60"> 
+    <meta http-equiv="refresh" content="60">
     <title>IT STATUS - LIVE FEED</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header class="top-bar">
-        <h1>ÉTAT DES SERVICES INFORMATIQUES</h1>
+        <h1>ÉTAT DES SERVICES INFORMATIQUES (TEST)</h1>
         <div id="clock" class="clock">00:00</div>
     </header>
 
@@ -27,23 +29,23 @@
                 // On récupère le fichier CSV (ajoute un timestamp pour éviter le cache)
                 const response = await fetch('data.csv?t=' + Date.now());
                 const data = await response.text();
-                
+
                 const rows = data.split('\n').slice(1); // On ignore la ligne d'entête
                 const grid = document.getElementById('services-grid');
                 grid.innerHTML = ''; // On vide la grille
 
                 rows.forEach(row => {
-                    if(row.trim() === "") return;
+                    if (row.trim() === "") return;
                     const cols = row.split(';'); // Séparateur point-virgule d'Excel
-                    
+
                     const name = cols[0];
                     const state = cols[1].trim();
                     const message = cols[2];
 
                     // Choix de la classe CSS selon l'état
                     let cssClass = "status-ok";
-                    if(state === "WARN") cssClass = "status-warning";
-                    if(state === "ERR") cssClass = "status-error";
+                    if (state === "WARN") cssClass = "status-warning";
+                    if (state === "ERR") cssClass = "status-error";
 
                     grid.innerHTML += `
                         <div class="card ${cssClass}">
@@ -65,11 +67,12 @@
         // Horloge
         setInterval(() => {
             const now = new Date();
-            document.getElementById('clock').innerText = now.toLocaleTimeString('fr-FR', {hour: '2-digit', minute:'2-digit'});
+            document.getElementById('clock').innerText = now.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
         }, 1000);
 
         // Charger les données au démarrage
         loadData();
     </script>
 </body>
+
 </html>
