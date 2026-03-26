@@ -1,5 +1,4 @@
 Service;Etat;Message
-Emails;OK;
-Wi-Fi;OK;Ca scroll dur
 Porte 'Proximus';WARN;Pas encore installee
 Coupure reseau ISLP;WARN;Prevue le 08/04 matin
+Cameras Centre et Gares;ERR;Intervention planifiée Avril
