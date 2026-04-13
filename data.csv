@@ -1,4 +1,5 @@
 ﻿Service;Etat;Message
 Porte 'Proximus';WARN;Pas encore installée
-Coupure réseau ISLP;OK;Terminé
-Caméras Centre et Gares;ERR;Intervention planifiée Avril
+Caméras Centre et Gares;ERR;Intervention planifiée Mai
+Web sur ISLP;ERR;Certains sites inacessibles
+Extension RDC;WARN;Bientôt disponible
