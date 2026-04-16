@@ -1,5 +1,6 @@
 ﻿Service;Etat;Message
-Porte 'Proximus';WARN;Pas encore installée
 Caméras Centre et Gares;ERR;Intervention planifiée Mai
 Web sur ISLP;ERR;Certains sites inacessibles
-AMS M³;WARN;Plusieurs fonctionalités  ne marchent plus
+Nouveau téléphone;OK;Local Intervention - 411
+Nouveau téléphone;OK;Local Audition 03 - 462
+Nouveau téléphone;OK;Local Intervention - 463
