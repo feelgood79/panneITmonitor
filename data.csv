@@ -1,5 +1,5 @@
 ﻿Service;Etat;Message
 Web sur ISLP;ERR;Certains sites inacessibles
-Alerte Phishing;WARN;Ouvrez l'œil, ni cliquez sur rien de suspect
 ePV;OK;Dossier A: dispo partout
 Armoire à clé;OK;Nouveau lecteur = Nouvelle carte !
+Mise à jour OFFICE;WARN;A partir du 16/07, une fermeture des outils O365 vous sera demandée
