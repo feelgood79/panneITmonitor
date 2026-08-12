@@ -1,5 +1,4 @@
 ﻿Service;Etat;Message
+COUPURE ISLP planifiée;WARN;24/08 8h00 ISLP 6.3, une heure de coupure
+ePV;OK;Dossier A: dispo partout !
 Web sur ISLP;ERR;Certains sites inacessibles
-ePV;OK;Dossier A: dispo partout
-Armoire à clé;OK;Nouveau lecteur = Nouvelle carte !
-Mise à jour OFFICE;WARN;A partir du 16/07, une fermeture des outils O365 vous sera demandée
