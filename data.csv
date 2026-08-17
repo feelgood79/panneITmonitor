@@ -2,3 +2,4 @@
 COUPURE ISLP planifiée;WARN;24/08 8h00 ISLP 6.3, une heure de coupure
 ePV;OK;Dossier A: dispo partout !
 Web sur ISLP;ERR;Certains sites inacessibles
+Armoire à clé lente;WARN;En cours d'investigation chez fournisseur
