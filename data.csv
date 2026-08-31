@@ -2,5 +2,4 @@
 COUPURE ISLP terminée;OK;Appel vers le 455 en cas de soucis
 ePV;OK;Dossier A: dispo partout ! Sinon 455
 Web sur ISLP;ERR;Certains sites inacessibles
-Armoire à clé lente;WARN;En cours d'investigation chez fournisseur
-FOCUS;WARN;Coupure jeudi entre 10h et 10h30
+Armoire à clé lente;OK;OK retour à la normale
