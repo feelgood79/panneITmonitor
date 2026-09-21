@@ -1,4 +1,5 @@
 ﻿Service;Etat;Message
 ePV;OK;Dossier A: dispo partout ! Sinon 455
 Web sur ISLP;ERR;Certains sites inacessibles
-LDL & DIV;ERR;Panne nationale
+LDL;ERR;Panne nationale
+DIV SUR FOCUS;ERR;Panne nationale
