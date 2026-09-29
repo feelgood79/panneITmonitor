@@ -1,3 +1,4 @@
 ﻿Service;Etat;Message
 ePV;OK;Dossier A: dispo partout ! Sinon 455
 Web sur ISLP;ERR;Certains sites inacessibles
+ISLP;WARN;15min d'interruption de réseau le 30/09 entre 07h00 et 08h00
