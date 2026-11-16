@@ -1,2 +1,3 @@
 ﻿Service;Etat;Message
-Microsoft en panne;ERR;Ne vous déconnectez pas !
+Microsoft en panne;OK;Panne terminée, retour progressif à la normale
+Status Microsoft;ERR;Certains utilisateurs peuvent encore rencontrer des ralentissements, des retards de réception ou des problèmes d'accès intermittents à certains services
